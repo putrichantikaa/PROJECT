@@ -10,7 +10,7 @@
           <a class="nav-link active" aria-current="page" href="/pece_is62/PROJECT/index.php">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Data Mahasiswa</a>
+          <a class="nav-link active" aria-current="page" href="/pece_is62/PROJECT/modul-mahasiswa/index.php">Data Mahasiswa</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/pece_is62/PROJECT/modul-jurusan/index.php">Data Jurusan</a>
@@ -21,7 +21,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-danger" type="submit">Search</button>
       </form>
     </div>
   </div>

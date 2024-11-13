@@ -13,15 +13,34 @@
 
 <div class="container">
    <div class="row mt-5">
-        <div class="col-6 m-auto">
+        <div class="col-8 m-auto">
             <div class="card">
             <div class="card-header">
-                <h4>Data Jurusan</h4>
+                <h3>Data Jurusan</h3>
+                <span class="float-end"><a class="btn btn-primary" href=""><i class="fa-solid fa-square-plus"></i> Tambah Data </a></span>
             </div>
                 <div class="card-body">
-              <h4>Selamat Datang, Administator</h4>
-              <p>Tuliskan Kata-kata hari ini </p>
-            </div>
+                <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Kode</th>
+      <th scope="col">Nama Jurusan</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>
+        <a class="btn btn-info btn-sm" href=""><i class="fa-solid fa-pen-to-square"></i></a>
+        <a class="btn btn-danger btn-sm" href=""><i class="fa-solid fa-trash"></i></a>
+        </td>
+    </tr>
+  </tbody>
+</table>
             </div>
         </div>
    </div>
@@ -29,6 +48,7 @@
 
     <script src="../js/bootstrap.js"></script>
     <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/all.js"></script>
 
 </body>
 </html>
